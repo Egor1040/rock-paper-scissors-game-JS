@@ -7,7 +7,7 @@ let wordGame3 = 'Папір';
 
 if (player1 == wordGame1 && player2 == wordGame1 || player1 == wordGame2 && player2 == wordGame2 || player1 == wordGame3 && player2 == wordGame3) {
     alert ('Ніхто не переміг, нічия');
-} else if (player1 == wordGame1 && player2 == wordGame2 || player1 == wordGame1 && player2 == wordGame3) {
+} if (player1 == wordGame1 && player2 == wordGame2 || player1 == wordGame1 && player2 == wordGame3) {
     alert ('Переміг гравець #1');
 } if (player1 == wordGame2 && player2 == wordGame3) {
     alert ('Переміг гравець #1');
