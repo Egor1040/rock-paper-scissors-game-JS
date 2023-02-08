@@ -7,11 +7,11 @@ let wordGame3 = 'Папір';
 
 if (player1 == wordGame1 && player2 == wordGame1 || player1 == wordGame2 && player2 == wordGame2 || player1 == wordGame3 && player2 == wordGame3) {
     alert ('Ніхто не переміг, нічия');
-} if (player1 == wordGame1 && player2 == wordGame2 || player1 == wordGame1 && player2 == wordGame3) {
+} else if (player1 == wordGame1 && player2 == wordGame2 || player1 == wordGame1 && player2 == wordGame3) {
     alert ('Переміг гравець #1');
-} if (player1 == wordGame2 && player2 == wordGame3) {
+} else if (player1 == wordGame2 && player2 == wordGame3) {
     alert ('Переміг гравець #1');
-} if (player1 == wordGame3 && player2 == wordGame2 || player1 == wordGame3 && player2 == wordGame1 || player1 == wordGame2 && player2 == wordGame1 ) {
+} else if (player1 == wordGame3 && player2 == wordGame2 || player1 == wordGame3 && player2 == wordGame1 || player1 == wordGame2 && player2 == wordGame1 ) {
     alert ('Переміг гравець #2');
 } else {
     alert ('Ви ввели невірно ігрове слово,повторіть спробу = )');
